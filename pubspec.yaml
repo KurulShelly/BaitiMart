@@ -1,0 +1,61 @@
+name: myapp
+description: "A new Flutter project."
+
+# Prevents accidental publishing to pub.dev.
+publish_to: 'none' 
+
+# Application versioning.
+version: 1.0.0+1
+
+# SDK environment.
+environment:
+  sdk: '>=3.5.3 <4.0.0'
+
+# Dependencies for the app.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  firebase_core: ^3.9.0
+  cloud_firestore: ^5.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Flutter-specific configuration.
+flutter:
+  uses-material-design: true
+
+  # Assets configuration.
+  assets:
+    - assets/images/aqua.jpg
+    - assets/images/cleo.jpg
+    - assets/images/galon.jpg
+    - assets/images/snack.jpg
+    - assets/images/sponge.jpg
+    - assets/images/gelas.jpg
+    - assets/images/vegetables.jpg
+    - assets/images/banner1.png
+    - assets/images/egg.png
+    - assets/images/beras.png
+    - assets/images/minyak.png
+    - assets/images/sarden.png
+    - assets/images/kopi.png
+    - assets/images/gula.png
+    - assets/images/semangka.png
+    - assets/images/terong.png
+    - assets/images/sawi.png
+    - assets/images/cabe.png
+    - assets/images/kangkung.png
+    - assets/images/tomat.png
+    - assets/images/promo.png
+    - assets/images/pro1.png
+    - assets/images/pro2.png
+    - assets/images/pro3.png
+    - assets/images/p1.png
+    - assets/images/p2.png
+    - assets/images/p3.png
+
